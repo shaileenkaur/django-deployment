@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'first_app/styles.css' %}">
+    <link rel="stylesheet" href="{% static 'first_app/bootstrap/bootstrap.min.css' %}">
+    <script src="{% static 'first_app/bootstrap/bootstrap.min.js' %}"></script>
+    <script src="{% static 'first_app/bootstrap/jquery-3.3.1.slim.min.js' %}"></script>
+    <script src="{% static 'first_app/bootstrap/popper.min.js' %}"></script>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1 id="h1" class="text-center">
+        Static File
+    </h1>
+    <img src="{% static 'first_app/images/owl.jpg' %}" alt="No Image">
+</body>
+
+</html>
